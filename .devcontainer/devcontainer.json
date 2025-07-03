@@ -1,0 +1,8 @@
+{
+  "name": "Grafana Dev",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "forwardPorts": [3000],
+  "postCreateCommand": "docker-compose up -d"
+}
