@@ -1,8 +1,8 @@
 {
   "name": "Grafana Dev",
-  "build": {
-    "dockerfile": "Dockerfile"
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
   },
   "forwardPorts": [3000],
-  "postCreateCommand": "docker-compose up -d"
+  "postCreateCommand": "docker compose up -d"
 }
